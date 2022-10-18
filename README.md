@@ -2,18 +2,13 @@
 
 Fork of AxLabelPlus in Non-Windowless mode to avoid GDI+ glitch in other Graphics (non GDI+) Containers
 
-\# axLabelPlus v1.6.14
-
-Fork of Awesome LabelPlus VB6 UserControl from Leandro Ascierto
 
 \## Properties
 
-:star:: additions versus original LabelPlus​
 
 | Properties                      |   Value   | Description                                                  |  
 | ------------------------------- | :-------: | ------------------------------------------------------------ |  
 | AutoSize                        |  Boolean  | \*allows the control to manage its measurements according to the content string\* |  
-| BackAcrylicBlur                 |  Boolean  | \*gives the control a transparent blurred glass effect\*       |  
 | BackColor                       | OLE\_Color | \*control background color\*                                   |  
 | BackColorOpacity                |  Integer  | \*control background color opacity\*                           |  
 | :star: BackColorPress        | OLE\_Color | \*control background color on click\*                          |  
@@ -183,7 +178,7 @@ axLabelPlus.pgx    \<resources of Property Page>
 Or Compile the usercontrol to OCX (ActiveX), and reference to your VB6 Project
 
 \`\`\`  
-AXLPCTRL.OCX  
+AXLPNWC.OCX  
 \`\`\`
 
 ...
